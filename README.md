@@ -36,7 +36,13 @@ $$
 |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
 $$
   
-  where \(\alpha, \beta \in \mathbb{C}\) and \(|\alpha|^2 + |\beta|^2 = 1\)
+$$
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+\quad \text{where} \quad
+\alpha, \beta \in \mathbb{C}
+\quad \text{and} \quad
+|\alpha|^2 + |\beta|^2 = 1
+$$
 
 - Lives on the **Bloch Sphere** — can point anywhere, not just north/south
 - Can explore **all paths at once** (1 time unit for 8 paths)
@@ -54,9 +60,9 @@ $$
 
 For **N qubits**, we need \(2^N\) complex amplitudes:
 
-\[
+$$
 |\psi\rangle = \sum_{i=0}^{2^N-1} c_i |i\rangle
-\]
+$$
 
 where each \(c_i\) is a complex number.
 
