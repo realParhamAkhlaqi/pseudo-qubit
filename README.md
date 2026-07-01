@@ -107,7 +107,7 @@ where each \(c_i\) is a complex number.
 | 22 | 4.19M | 332,969,374 | 303,555,565 | **1.10x** |
 | 24 | 16.7M | 1,121,987,664 | 1,247,747,216 | 0.90x |
 
-> **Peak AVX2 speedup:** **1.94x** observed in best-case scenarios
+> **Peak AVX2 speedup:** **2.64x** observed in best-case scenarios
 
 ---
 
