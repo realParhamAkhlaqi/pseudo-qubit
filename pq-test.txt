@@ -1,0 +1,416 @@
+Pseudo-Qubit Benchmark Results
+============================================================
+Hardware: Intel i5-6200U
+Compiler: g++ -O3 -march=native -mavx2
+Qubits: 10
+State Vector Size: 1024
+Memory: < 1 MB
+Iterations per test: 500
+============================================================
+
+Test Run 1:
+  Classic (Scalar) : 10,891 ns avg
+  Quantum (AVX2)   : 11,434 ns avg
+  Speedup          : 0.95x
+
+Test Run 2:
+  Classic (Scalar) : 11,063 ns avg
+  Quantum (AVX2)   : 11,407 ns avg
+  Speedup          : 0.97x
+
+Test Run 3:
+  Classic (Scalar) : 39,852 ns avg
+  Quantum (AVX2)   : 24,846 ns avg
+  Speedup          : 1.60x
+
+Test Run 4:
+  Classic (Scalar) : 11,260 ns avg
+  Quantum (AVX2)   : 11,615 ns avg
+  Speedup          : 0.97x
+
+Test Run 5:
+  Classic (Scalar) : 11,953 ns avg
+  Quantum (AVX2)   : 11,283 ns avg
+  Speedup          : 1.06x
+
+Test Run 6:
+  Classic (Scalar) : 12,453 ns avg
+  Quantum (AVX2)   : 11,680 ns avg
+  Speedup          : 1.07x
+
+Test Run 7:
+  Classic (Scalar) : 11,872 ns avg
+  Quantum (AVX2)   : 11,364 ns avg
+  Speedup          : 1.04x
+
+Test Run 8:
+  Classic (Scalar) : 11,894 ns avg
+  Quantum (AVX2)   : 11,358 ns avg
+  Speedup          : 1.05x
+
+Test Run 9:
+  Classic (Scalar) : 12,656 ns avg
+  Quantum (AVX2)   : 11,362 ns avg
+  Speedup          : 1.11x
+
+Test Run 10:
+  Classic (Scalar) : 12,043 ns avg
+  Quantum (AVX2)   : 11,869 ns avg
+  Speedup          : 1.01x
+
+Test Run 11:
+  Classic (Scalar) : 12,595 ns avg
+  Quantum (AVX2)   : 11,365 ns avg
+  Speedup          : 1.11x
+
+Test Run 12:
+  Classic (Scalar) : 12,594 ns avg
+  Quantum (AVX2)   : 11,312 ns avg
+  Speedup          : 1.11x
+
+Test Run 13:
+  Classic (Scalar) : 18,921 ns avg
+  Quantum (AVX2)   : 22,164 ns avg
+  Speedup          : 0.85x
+
+Test Run 14:
+  Classic (Scalar) : 11,391 ns avg
+  Quantum (AVX2)   : 11,282 ns avg
+  Speedup          : 1.01x
+
+Test Run 15:
+  Classic (Scalar) : 11,163 ns avg
+  Quantum (AVX2)   : 11,379 ns avg
+  Speedup          : 0.98x
+
+Test Run 16:
+  Classic (Scalar) : 11,499 ns avg
+  Quantum (AVX2)   : 11,377 ns avg
+  Speedup          : 1.01x
+
+Test Run 17:
+  Classic (Scalar) : 11,131 ns avg
+  Quantum (AVX2)   : 11,291 ns avg
+  Speedup          : 0.99x
+
+Test Run 18:
+  Classic (Scalar) : 10,611 ns avg
+  Quantum (AVX2)   : 11,449 ns avg
+  Speedup          : 0.93x
+
+Test Run 19:
+  Classic (Scalar) : 10,811 ns avg
+  Quantum (AVX2)   : 11,355 ns avg
+  Speedup          : 0.95x
+
+Test Run 20:
+  Classic (Scalar) : 12,031 ns avg
+  Quantum (AVX2)   : 11,355 ns avg
+  Speedup          : 1.06x
+
+Test Run 21:
+  Classic (Scalar) : 11,699 ns avg
+  Quantum (AVX2)   : 11,282 ns avg
+  Speedup          : 1.04x
+
+Test Run 22:
+  Classic (Scalar) : 11,788 ns avg
+  Quantum (AVX2)   : 11,347 ns avg
+  Speedup          : 1.04x
+
+Test Run 23:
+  Classic (Scalar) : 12,174 ns avg
+  Quantum (AVX2)   : 11,437 ns avg
+  Speedup          : 1.06x
+
+Test Run 24:
+  Classic (Scalar) : 35,480 ns avg
+  Quantum (AVX2)   : 28,875 ns avg
+  Speedup          : 1.23x
+
+Test Run 25:
+  Classic (Scalar) : 12,164 ns avg
+  Quantum (AVX2)   : 11,337 ns avg
+  Speedup          : 1.07x
+
+Test Run 26:
+  Classic (Scalar) : 33,625 ns avg
+  Quantum (AVX2)   : 30,200 ns avg
+  Speedup          : 1.11x
+
+Test Run 27:
+  Classic (Scalar) : 11,883 ns avg
+  Quantum (AVX2)   : 11,460 ns avg
+  Speedup          : 1.04x
+
+Test Run 28:
+  Classic (Scalar) : 12,472 ns avg
+  Quantum (AVX2)   : 11,457 ns avg
+  Speedup          : 1.09x
+
+Test Run 29:
+  Classic (Scalar) : 32,161 ns avg
+  Quantum (AVX2)   : 30,227 ns avg
+  Speedup          : 1.06x
+
+Test Run 30:
+  Classic (Scalar) : 11,860 ns avg
+  Quantum (AVX2)   : 11,304 ns avg
+  Speedup          : 1.05x
+
+Test Run 31:
+  Classic (Scalar) : 11,188 ns avg
+  Quantum (AVX2)   : 11,693 ns avg
+  Speedup          : 0.96x
+
+Test Run 32:
+  Classic (Scalar) : 11,317 ns avg
+  Quantum (AVX2)   : 11,281 ns avg
+  Speedup          : 1.00x
+
+Test Run 33:
+  Classic (Scalar) : 11,938 ns avg
+  Quantum (AVX2)   : 11,466 ns avg
+  Speedup          : 1.04x
+
+Test Run 34:
+  Classic (Scalar) : 33,870 ns avg
+  Quantum (AVX2)   : 31,281 ns avg
+  Speedup          : 1.08x
+
+Test Run 35:
+  Classic (Scalar) : 11,170 ns avg
+  Quantum (AVX2)   : 11,578 ns avg
+  Speedup          : 0.96x
+
+Test Run 36:
+  Classic (Scalar) : 38,549 ns avg
+  Quantum (AVX2)   : 25,199 ns avg
+  Speedup          : 1.53x
+
+Test Run 37:
+  Classic (Scalar) : 13,052 ns avg
+  Quantum (AVX2)   : 11,531 ns avg
+  Speedup          : 1.13x
+
+Test Run 38:
+  Classic (Scalar) : 12,151 ns avg
+  Quantum (AVX2)   : 11,612 ns avg
+  Speedup          : 1.05x
+
+Test Run 39:
+  Classic (Scalar) : 11,717 ns avg
+  Quantum (AVX2)   : 11,429 ns avg
+  Speedup          : 1.03x
+
+Test Run 40:
+  Classic (Scalar) : 34,580 ns avg
+  Quantum (AVX2)   : 28,610 ns avg
+  Speedup          : 1.21x
+
+Test Run 41:
+  Classic (Scalar) : 33,845 ns avg
+  Quantum (AVX2)   : 30,409 ns avg
+  Speedup          : 1.11x
+
+Test Run 42:
+  Classic (Scalar) : 11,652 ns avg
+  Quantum (AVX2)   : 11,412 ns avg
+  Speedup          : 1.02x
+
+Test Run 43:
+  Classic (Scalar) : 12,024 ns avg
+  Quantum (AVX2)   : 11,315 ns avg
+  Speedup          : 1.06x
+
+Test Run 44:
+  Classic (Scalar) : 11,639 ns avg
+  Quantum (AVX2)   : 11,438 ns avg
+  Speedup          : 1.02x
+
+Test Run 45:
+  Classic (Scalar) : 10,373 ns avg
+  Quantum (AVX2)   : 11,547 ns avg
+  Speedup          : 0.90x
+
+Test Run 46:
+  Classic (Scalar) : 12,291 ns avg
+  Quantum (AVX2)   : 11,420 ns avg
+  Speedup          : 1.08x
+
+Test Run 47:
+  Classic (Scalar) : 33,876 ns avg
+  Quantum (AVX2)   : 29,407 ns avg
+  Speedup          : 1.15x
+
+Test Run 48:
+  Classic (Scalar) : 10,985 ns avg
+  Quantum (AVX2)   : 11,401 ns avg
+  Speedup          : 0.96x
+
+Test Run 49:
+  Classic (Scalar) : 12,334 ns avg
+  Quantum (AVX2)   : 11,521 ns avg
+  Speedup          : 1.07x
+
+Test Run 50:
+  Classic (Scalar) : 12,570 ns avg
+  Quantum (AVX2)   : 11,447 ns avg
+  Speedup          : 1.10x
+
+Test Run 51:
+  Classic (Scalar) : 10,831 ns avg
+  Quantum (AVX2)   : 11,265 ns avg
+  Speedup          : 0.96x
+
+Test Run 52:
+  Classic (Scalar) : 12,297 ns avg
+  Quantum (AVX2)   : 11,628 ns avg
+  Speedup          : 1.06x
+
+Test Run 53:
+  Classic (Scalar) : 10,882 ns avg
+  Quantum (AVX2)   : 11,513 ns avg
+  Speedup          : 0.95x
+
+Test Run 54:
+  Classic (Scalar) : 12,815 ns avg
+  Quantum (AVX2)   : 11,345 ns avg
+  Speedup          : 1.13x
+
+Test Run 55:
+  Classic (Scalar) : 11,971 ns avg
+  Quantum (AVX2)   : 11,397 ns avg
+  Speedup          : 1.05x
+
+Test Run 56:
+  Classic (Scalar) : 11,065 ns avg
+  Quantum (AVX2)   : 11,665 ns avg
+  Speedup          : 0.95x
+
+Test Run 57:
+  Classic (Scalar) : 11,398 ns avg
+  Quantum (AVX2)   : 11,573 ns avg
+  Speedup          : 0.98x
+
+Test Run 58:
+  Classic (Scalar) : 11,546 ns avg
+  Quantum (AVX2)   : 11,442 ns avg
+  Speedup          : 1.01x
+
+Test Run 59:
+  Classic (Scalar) : 12,928 ns avg
+  Quantum (AVX2)   : 12,835 ns avg
+  Speedup          : 1.01x
+
+Test Run 60:
+  Classic (Scalar) : 32,606 ns avg
+  Quantum (AVX2)   : 31,677 ns avg
+  Speedup          : 1.03x
+
+Test Run 61:
+  Classic (Scalar) : 11,498 ns avg
+  Quantum (AVX2)   : 11,678 ns avg
+  Speedup          : 0.98x
+
+Test Run 62:
+  Classic (Scalar) : 11,748 ns avg
+  Quantum (AVX2)   : 11,634 ns avg
+  Speedup          : 1.01x
+
+Test Run 63:
+  Classic (Scalar) : 14,432 ns avg
+  Quantum (AVX2)   : 13,342 ns avg
+  Speedup          : 1.08x
+
+Test Run 64:
+  Classic (Scalar) : 10,829 ns avg
+  Quantum (AVX2)   : 11,449 ns avg
+  Speedup          : 0.95x
+
+Test Run 65:
+  Classic (Scalar) : 34,872 ns avg
+  Quantum (AVX2)   : 31,328 ns avg
+  Speedup          : 1.11x
+
+Test Run 66:
+  Classic (Scalar) : 32,264 ns avg
+  Quantum (AVX2)   : 34,905 ns avg
+  Speedup          : 0.92x
+
+Test Run 67:
+  Classic (Scalar) : 33,365 ns avg
+  Quantum (AVX2)   : 29,606 ns avg
+  Speedup          : 1.13x
+
+Test Run 68:
+  Classic (Scalar) : 11,778 ns avg
+  Quantum (AVX2)   : 11,284 ns avg
+  Speedup          : 1.04x
+
+Test Run 69:
+  Classic (Scalar) : 33,467 ns avg
+  Quantum (AVX2)   : 30,749 ns avg
+  Speedup          : 1.09x
+
+Test Run 70:
+  Classic (Scalar) : 33,430 ns avg
+  Quantum (AVX2)   : 30,058 ns avg
+  Speedup          : 1.11x
+
+Test Run 71:
+  Classic (Scalar) : 12,110 ns avg
+  Quantum (AVX2)   : 11,564 ns avg
+  Speedup          : 1.05x
+
+Test Run 72:
+  Classic (Scalar) : 36,151 ns avg
+  Quantum (AVX2)   : 30,704 ns avg
+  Speedup          : 1.18x
+
+Test Run 73:
+  Classic (Scalar) : 10,695 ns avg
+  Quantum (AVX2)   : 11,502 ns avg
+  Speedup          : 0.93x
+
+Test Run 74:
+  Classic (Scalar) : 12,100 ns avg
+  Quantum (AVX2)   : 11,494 ns avg
+  Speedup          : 1.05x
+
+Test Run 75:
+  Classic (Scalar) : 35,735 ns avg
+  Quantum (AVX2)   : 26,868 ns avg
+  Speedup          : 1.33x
+
+Test Run 76:
+  Classic (Scalar) : 11,849 ns avg
+  Quantum (AVX2)   : 11,452 ns avg
+  Speedup          : 1.03x
+
+Test Run 77:
+  Classic (Scalar) : 39,981 ns avg
+  Quantum (AVX2)   : 20,655 ns avg
+  Speedup          : 1.94x
+
+Test Run 78:
+  Classic (Scalar) : 32,190 ns avg
+  Quantum (AVX2)   : 31,472 ns avg
+  Speedup          : 1.02x
+
+============================================================
+Summary Statistics:
+============================================================
+Total Runs        : 78
+Average Scalar    : 20,285 ns
+Average AVX2      : 18,352 ns
+Average Speedup   : 1.10x
+Minimum Speedup   : 0.85x
+Maximum Speedup   : 1.94x
+============================================================
+Observations:
+- AVX2 shows consistent speedup in most cases
+- Peak speedup of 1.94x observed (Run 77)
+- Performance varies due to CPU frequency scaling and memory alignment
+- Average 10% improvement indicates SIMD benefits for this workload
+============================================================
