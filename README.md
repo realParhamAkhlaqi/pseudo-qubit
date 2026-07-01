@@ -174,4 +174,3 @@ Contributions are welcome! Please:
 **Built with ❤️ for the open-source community.**
 
 *"The logic of a qubit, simulated classically."*
-```
