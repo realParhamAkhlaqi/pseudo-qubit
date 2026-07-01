@@ -32,9 +32,9 @@ We explore three fundamental levels of computation:
 - Exists in **superposition**: both `0` and `1` simultaneously with different weights
 - Mathematical representation:
   
-  \[
-  |\psi\rangle = \alpha|0\rangle + \beta|1\rangle
-  \]
+$$
+|\psi\rangle = \alpha|0\rangle + \beta|1\rangle
+$$
   
   where \(\alpha, \beta \in \mathbb{C}\) and \(|\alpha|^2 + |\beta|^2 = 1\)
 
@@ -136,7 +136,7 @@ pseudo-qubit/
 ├── main.cpp          # Core simulator implementation
 ├── README.md         # This file
 ├── LICENSE.txt           # GPL-3.0 license
-└── pq-test.txt        # Pseudo-Qubit benchmark: scalar vs AVX2 speed comparison for 4 Pseudo-Qubit.
+└── pq-test.txt        # Pseudo-Qubit benchmark: scalar vs AVX2 speed comparison for 10 Pseudo-Qubit.
 ```
 
 ---
