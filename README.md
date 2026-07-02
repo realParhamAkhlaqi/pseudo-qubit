@@ -139,10 +139,12 @@ const double test_angle = 0.7853981633974483; // 45 degrees
 ## 📂 Repository Structure
 ```
 pseudo-qubit/
-├── main.cpp          # Core simulator implementation
-├── README.md         # This file
-├── LICENSE.txt           # GPL-3.0 license
-└── pq-test.txt        # Pseudo-Qubit benchmark: scalar vs AVX2 speed comparison for 10 Pseudo-Qubit.
+├── main_v1.cpp        # Version 1: Original AVX2 implementation (step==1 scalar bug)
+├── main_v2.cpp        # Version 2: Fixed AVX2 for ALL layers (+17% avg speedup)
+├── README.md          # This file
+├── LICENSE.txt        # GPL-3.0 license
+├── pq-test-v1.txt     # Benchmark results for v1 (scalar vs AVX2)
+└── pq-test-v2.txt     # Benchmark results for v2 (fixed AVX2)
 ```
 
 ---
