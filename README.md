@@ -144,7 +144,7 @@ pseudo-qubit/
 ├── README.md          # This file
 ├── LICENSE.txt        # GPL-3.0 license
 ├── pq-test.txt     # Benchmark results for v1 (scalar vs AVX2)
-└── pq-test-v2.txt     # Benchmark results for v2 (fixed AVX2)
+└── pq-test-v2.txt     # Benchmark results for v2 (fixed AVX2 Max:3.25x Average:~2.10x)
 ```
 
 ---
