@@ -143,7 +143,7 @@ pseudo-qubit/
 ├── main_v2.cpp        # Version 2: Fixed AVX2 for ALL layers (+17% avg speedup)
 ├── README.md          # This file
 ├── LICENSE.txt        # GPL-3.0 license
-├── pq-test-v1.txt     # Benchmark results for v1 (scalar vs AVX2)
+├── pq-test.txt     # Benchmark results for v1 (scalar vs AVX2)
 └── pq-test-v2.txt     # Benchmark results for v2 (fixed AVX2)
 ```
 
