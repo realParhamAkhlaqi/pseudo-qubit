@@ -139,7 +139,7 @@ const double test_angle = 0.7853981633974483; // 45 degrees
 ## 📂 Repository Structure
 ```
 pseudo-qubit/
-├── main_v1.cpp        # Version 1: Original AVX2 implementation (step==1 scalar bug)
+├── main.cpp        # Version 1: Original AVX2 implementation (step==1 scalar bug)
 ├── main_v2.cpp        # Version 2: Fixed AVX2 for ALL layers (+17% avg speedup)
 ├── README.md          # This file
 ├── LICENSE.txt        # GPL-3.0 license
@@ -165,12 +165,6 @@ Contributions are welcome! Please:
 1. Fork the repository
 2. Create a feature branch
 3. Submit a pull request with clear description
-
----
-
-## ✨ Philosophical Note
-
-> *"This repository doesn't just contain code — it contains the logic of a qubit, simulated on a classical machine. On paper (and in RAM), all quantum laws execute perfectly. No electrons are in superposition — only numbers dancing in memory."*
 
 ---
 
