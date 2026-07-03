@@ -141,7 +141,7 @@ const double test_angle = 0.7853981633974483; // 45 degrees
 pseudo-qubit/
 ├── 28m/
 │   ├── main_v2.cpp
-│   ├── marathon_28m_report.txt        # 28M tests benchmark | Max: 29.78x, Avg: 1.12x
+│   ├── marathon_28m_report.txt        # 28M tests benchmark | Max: 29.78x, Avg: 1.12x (with i5 6200u)
 │   └── stress_test.cpp
 ├── main.cpp            # Version 1: Original AVX2 implementation
 ├── main_v2.cpp         # Version 2: Fixed AVX2 for ALL layers
