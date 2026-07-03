@@ -139,12 +139,16 @@ const double test_angle = 0.7853981633974483; // 45 degrees
 ## 📂 Repository Structure
 ```
 pseudo-qubit/
-├── main.cpp        # Version 1: Original AVX2 implementation (step==1 scalar bug)
-├── main_v2.cpp        # Version 2: Fixed AVX2 for ALL layers (+17% avg speedup)
-├── README.md          # This file
-├── LICENSE.txt        # GPL-3.0 license
-├── pq-test.txt     # Benchmark results for v1 (scalar vs AVX2)
-└── pq-test-v2.txt     # Benchmark results for v2 (fixed AVX2 Max:3.25x Average:~2.10x)
+├── 28m/
+│   ├── main_v2.cpp
+│   ├── marathon_28m_report.txt        # 28M tests benchmark | Max: 29.78x, Avg: 1.12x
+│   └── stress_test.cpp
+├── main.cpp            # Version 1: Original AVX2 implementation
+├── main_v2.cpp         # Version 2: Fixed AVX2 for ALL layers
+├── README.md           # This file
+├── LICENSE.txt         # GPL-3.0 license
+├── pq-test.txt        # Benchmark results for v1 (scalar vs AVX2)
+└── pq-test-v2.txt      # Benchmark results for v2 (fixed AVX2 Max:3.25x Average:~2.10x)
 ```
 
 ---
