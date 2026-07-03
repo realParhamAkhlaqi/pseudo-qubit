@@ -5,8 +5,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 [![C++](https://img.shields.io/badge/C++-17-blue.svg)](https://isocpp.org/)
 [![AVX2](https://img.shields.io/badge/AVX2-Optimized-green.svg)](https://en.wikipedia.org/wiki/AVX2)
-[![AVX2 Speedup](https://img.shields.io/badge/AVX2-Speedup%202.64x-blue)](https://github.com/realParhamAkhlaqi/pseudo-qubit)
-
+[![Peak AVX2 Speedup](https://img.shields.io/badge/Max%20AVX2%20Speedup-29.78x-critical)](https://github.com/realParhamAkhlaqi/pseudo-qubit)
 ---
 
 ## 📖 The Logic Behind This Project
